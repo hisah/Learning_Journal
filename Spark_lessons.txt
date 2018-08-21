@@ -26,6 +26,10 @@
     3. Its stream-processing library, Spark Streaming, can ingest data continuously from systems like Apache Flume and Apache Kafka. 
     4. Its SQL library, SparkSQL, can interact with the Apache Hive Metastore, and the Hive on Spark initiative enabled Spark to be used        as an underlying execution engine for Hive, as an alternative to MapReduce. 
     5. It can run inside YARN, Hadoop’s scheduler and resource manager, allowing it to share cluster resources dynamically and to be            managed with the same policies as other processing engines, like Map‐Reduce and Apache Impala.
-    
-    
+
+## Data Analysis with Scala and Spark
+  The Spark Programming Model: Spark programming starts with a dataset, usually residing in some form of distributed, persistent storage    like HDFS. Writing a Spark program typically consists of a few related steps: 
+  1. Define a set of transformations on the input data set.
+  2. Invoke actions that output the transformed data sets to persistent storage or return results to the driver’s local memory.
+  3. Run local computations that operate on the results computed in a distributed fashion. These can help you decide what                   transformations and actions to undertake next.
   
