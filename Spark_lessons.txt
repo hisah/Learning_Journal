@@ -19,6 +19,13 @@
    Spark's Dataset and DataFrame abstractions enable developers to materialize any point in a processing pipeline into memory across the      cluster, meaning that future steps that want to deal with the same data set need not recompute it or reload it from disk. 
     This capability opens up use cases that distributed processing engines could not previously approach. 
    Spark is well suited for highly iterative algorithms that require multiple passes over a data set, as well as reactive applications        that quickly respond to user queries by scanning large in-memory data sets.
+   
+   Spark boasts strong integration with the variety of tools in the Hadoop ecosystem. 
+    1. It can read and write data in all of the data formats supported by MapReduce, allowing it to interact with formats commonly used to      store data on Hadoop, like Apache Avro and Apache Parquet (and good old CSV). 
+    2. It can read from and write to NoSQL databases like Apache HBase and Apache Cassandra. 
+    3. Its stream-processing library, Spark Streaming, can ingest data continuously from systems like Apache Flume and Apache Kafka. 
+    4. Its SQL library, SparkSQL, can interact with the Apache Hive Metastore, and the Hive on Spark initiative enabled Spark to be used        as an underlying execution engine for Hive, as an alternative to MapReduce. 
+    5. It can run inside YARN, Hadoop’s scheduler and resource manager, allowing it to share cluster resources dynamically and to be            managed with the same policies as other processing engines, like Map‐Reduce and Apache Impala.
     
     
   
