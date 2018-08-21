@@ -1,5 +1,6 @@
 
-Advanced Analytics with Spark: https://github.com/sryza/aas 
+### Advanced Analytics with Spark: https://github.com/sryza/aas 
+## Preamble
   The following are tasks that simply could not have been accomplished 5 or 10 years ago.
     1. Build a model to detect credit card fraud using thousands of features and billions of transactions
     2. Intelligently recommend millions of products to millions of users
@@ -9,3 +10,15 @@ Advanced Analytics with Spark: https://github.com/sryza/aas
   We now have tools for collecting, storing, and processing information at a scale previously unheard of. 
   Behind these capabilities is an ecosystem of software that can leverage clusters of computers to chug through massive amounts of data.
     Example of these software systems: Hadoop, Spark, Flink
+  Data science tries to bridge the gap between having access to these tools and all this data and doing something useful with it
+## Spark
+  Spark is an open source framework that combines an engine for distributing programs across clusters of machines with an elegant model     for writing programs atop it. It maintains MapReduce’s linear scalability and fault tolerance, but extends it in three important ways.  
+    1. Rather than relying on a rigid map-then-reduce format, its engine can execute a more general DAG of operators
+    2. It complements this capability with a rich set of transformations that enable users to express computation more naturally
+    3. Spark extends its predecessors with in-memory processing. 
+   Spark's Dataset and DataFrame abstractions enable developers to materialize any point in a processing pipeline into memory across the      cluster, meaning that future steps that want to deal with the same data set need not recompute it or reload it from disk. 
+    This capability opens up use cases that distributed processing engines could not previously approach. 
+   Spark is well suited for highly iterative algorithms that require multiple passes over a data set, as well as reactive applications        that quickly respond to user queries by scanning large in-memory data sets.
+    
+    
+  
