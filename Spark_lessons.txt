@@ -1,1 +1,11 @@
 
+Advanced Analytics with Spark: https://github.com/sryza/aas 
+  The following are tasks that simply could not have been accomplished 5 or 10 years ago.
+    1. Build a model to detect credit card fraud using thousands of features and billions of transactions
+    2. Intelligently recommend millions of products to millions of users
+    3. Estimate financial risk through simulations of portfolios that include millions of instruments
+    4. Easily manipulate data from thousands of human genomes to detect genetic associations with disease
+ We now live in an age of big data 
+  We now have tools for collecting, storing, and processing information at a scale previously unheard of. 
+  Behind these capabilities is an ecosystem of software that can leverage clusters of computers to chug through massive amounts of data.
+    Example of these software systems: Hadoop, Spark, Flink
